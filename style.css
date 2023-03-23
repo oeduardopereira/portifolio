@@ -1,11 +1,6 @@
 .profile{
     border-radius: 10px;
-    width: 200px;
-}
-
-.pic-position{
-    float: right;
-
+    width: 200px;float: right;
 }
 
 body{
@@ -21,25 +16,3 @@ h1{
     text-align: center;
 }
 
-div.relative {
-    position: absolute;
-    width: 600px;
-    height: 200px;
-    
-    background: blue;
-    white-space: nowrap;
-  }
-
-div#one, div#two {
-    display: inline-block;
-    width: 200px;
-    height: 50px;
-  }
-  
-  div#one {
-    background: red;
-  }
-  
-  div#two {
-    background: green;
-  }
