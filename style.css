@@ -1,6 +1,8 @@
 .profile{
     border-radius: 10px;
-    width: 200px;float: right;
+    width: 200px;
+    float: right;
+    position: relative;
 }
 
 body{
@@ -13,6 +15,29 @@ p{
 }
 
 h1{
-    text-align: center;
+    text-align: left;
+    padding-left: 50px;
+    font-size: 3em;
+}
+
+.header{
+    float: right;
+}
+
+li{
+    display: inline;
+}
+
+#home{
+    background-color: rgb(249, 249, 249);
+    clear: both;
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    margin: 0;
+}
+
+#name-header{
+    display: inline-block;
+    width: 50%;
 }
 
